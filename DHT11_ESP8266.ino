@@ -15,7 +15,7 @@ FirebaseData firebaseData;
 
 //Incluimos la libreria del modulo DHT11 y el pin al que estara conectado
 #include "DHTesp.h"
-#define DHTpin 5
+#define DHTpin 5 //Pin D1 en modulo ESP8266
 DHTesp dht;
 
 void setup() {
